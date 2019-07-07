@@ -28,11 +28,8 @@ ECHO Compare FC Parameters_infos
 Echo compare to stock 
 echo By Brett8883
 ECHO -------------------------------------------------------------------------------------------
-set /P P=Enter path to parameter file you'd like to compare or drag it into cmd line
+set /P P=Enter path to parameter file you'd like to compare or drag it into cmd line then press [enter]
 cls
-echo %facparms%
-echo %P%
-pause
 cd DefaultParams
 fc %facparms% %P%
 pause
