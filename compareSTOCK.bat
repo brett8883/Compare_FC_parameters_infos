@@ -15,7 +15,7 @@ choice /C 1234567 /D 1 /T 99 /M "Please select factory parameters to compare"
 If Errorlevel 7 set facparms=got to sorry
 If Errorlevel 6 set facparms=flcy_param_infos_p4pv2
 If Errorlevel 5 set facparms=flcy_param_infos_p4p
-If Errorlevel 4 set facparms=goto sorry
+If Errorlevel 4 set facparms=flyc_param_infos_P4A
 If Errorlevel 3 set facparms=goto sorry
 If Errorlevel 2 set facparms=flcy_param_infos_spark
 If Errorlevel 1 set facparms=flcy_param_infos_mavicPro
