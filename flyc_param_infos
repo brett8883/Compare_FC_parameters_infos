@@ -16,7 +16,7 @@
 		"attribute" : 57,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.airport_limit_cfg.cfg_disable_airport_fly_limit"
 	},
 	{
@@ -26,7 +26,7 @@
 		"attribute" : 42,
 		"minValue" : 0,
 		"maxValue" : 4294967295,
-		"defaultValue" : 20150910,
+		"defaultValue" : 20250910,
 		"name" : "g_config.airport_limit_cfg.cfg_limit_data"
 	},
 	{
@@ -36,7 +36,7 @@
 		"attribute" : 50,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.driver_license_limit_enable"
 	},
 	{
@@ -46,7 +46,7 @@
 		"attribute" : 51,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.flying_limit.viechle_license_limit_enable"
 	},
 	{
@@ -56,7 +56,7 @@
 		"attribute" : 43,
 		"minValue" : 1,
 		"maxValue" : 2,
-		"defaultValue" : 1,
+		"defaultValue" : 2,
 		"name" : "g_config.flying_limit.height_limit_enabled",
 		"modify" : true
 	},
@@ -77,7 +77,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_cfg_debug.motor.no_start_motor_check"
 	},
 	{
@@ -198,7 +198,7 @@
 		"attribute" : 40,
 		"minValue" : 0,
 		"maxValue" : 32,
-		"defaultValue" : 14,
+		"defaultValue" : 12,
 		"name" : "g_config.gps_signal_level_cfg.super_svn"
 	},
 	{
@@ -1093,7 +1093,7 @@
 		"attribute" : 42,
 		"minValue" : 0,
 		"maxValue" : 65535,
-		"defaultValue" : 1000,
+		"defaultValue" : 1500,
 		"name" : "g_config.rc_cfg.stop_motor_verify_time_ms"
 	},
 	{
@@ -1507,7 +1507,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.avoid_cfg.avoid_config_enable"
 	},
 	{
@@ -1535,8 +1535,8 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 41,
-		"minValue" : 30.000000,
-		"maxValue" : 90.000000,
+		"minValue" : 1.000000,
+		"maxValue" : 200.000000,
 		"defaultValue" : 70.000000,
 		"name" : "g_config.avoid_cfg.avoid_tors_rate_range"
 	},
@@ -1767,7 +1767,7 @@
 		"attribute" : 44,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.takeoff.auto_assist_takeoff_enable"
 	},
 	{
@@ -1991,7 +1991,7 @@
 		"attribute" : 38,
 		"minValue" : 1,
 		"maxValue" : 20,
-		"defaultValue" : 5,
+		"defaultValue" : 3,
 		"name" : "g_config.flying_limit.min_height_user"
 	},
 	{
@@ -2042,7 +2042,7 @@
 		"attribute" : 39,
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
-		"defaultValue" : 5.000000,
+		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_rel"
 	},
 	{
@@ -2052,7 +2052,7 @@
 		"attribute" : 39,
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
-		"defaultValue" : 50.000000,
+		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs"
 	},
 	{
@@ -2062,7 +2062,7 @@
 		"attribute" : 51,
 		"minValue" : 0.000000,
 		"maxValue" : 100000.000000,
-		"defaultValue" : 30.000000,
+		"defaultValue" : 10000.000000,
 		"name" : "g_config.flying_limit.limit_height_abs_without_gps"
 	},
 	{
@@ -2113,7 +2113,7 @@
 		"attribute" : 29,
 		"minValue" : 10,
 		"maxValue" : 50,
-		"defaultValue" : 25,
+		"defaultValue" : 15,
 		"name" : "g_config.engine.adding_level"
 	},
 	{
@@ -2123,7 +2123,7 @@
 		"attribute" : 26,
 		"minValue" : 1.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 1.200000,
+		"defaultValue" : 1.500000,
 		"name" : "g_config.engine.idle_time"
 	},
 	{
@@ -2193,7 +2193,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.misc_cfg.follow_gimbal_yaw_en"
 	},
 	{
@@ -2305,7 +2305,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.misc_cfg.gimbal_atti_limit_en"
 	},
 	{
@@ -2325,7 +2325,7 @@
 		"attribute" : 39,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.misc_cfg.fix_wind_mode_enable"
 	},
 	{
@@ -2475,7 +2475,7 @@
 		"attribute" : 21,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "enable_multiple_mode"
 	},
 	{
@@ -2925,7 +2925,7 @@
 		"attribute" : 7,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : -26,
+		"defaultValue" : 24,
 		"name" : "imu0_x"
 	},
 	{
@@ -2935,7 +2935,7 @@
 		"attribute" : 7,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : -2,
+		"defaultValue" : 0,
 		"name" : "imu0_y"
 	},
 	{
@@ -2945,7 +2945,7 @@
 		"attribute" : 7,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : 12,
+		"defaultValue" : 0,
 		"name" : "imu0_z"
 	},
 	{
@@ -2955,7 +2955,7 @@
 		"attribute" : 7,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : -64,
+		"defaultValue" : -58,
 		"name" : "gps0_x"
 	},
 	{
@@ -2975,7 +2975,7 @@
 		"attribute" : 7,
 		"minValue" : -32768,
 		"maxValue" : 32767,
-		"defaultValue" : -25,
+		"defaultValue" : -5,
 		"name" : "gps0_z"
 	},
 	{
@@ -4234,7 +4234,7 @@
 		"attribute" : 34,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.iosd_cfg.cfg_func_enable"
 	},
 	{
@@ -4759,7 +4759,7 @@
 		"attribute" : 41,
 		"minValue" : 0.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 0.700000,
+		"defaultValue" : 0.500000,
 		"name" : "g_config.landing.smart_landing_height_L1"
 	},
 	{
@@ -4779,7 +4779,7 @@
 		"attribute" : 35,
 		"minValue" : -10.000000,
 		"maxValue" : 0.000000,
-		"defaultValue" : -0.300000,
+		"defaultValue" : -0.200000,
 		"name" : "g_config.landing.smart_landing_vel"
 	},
 	{
@@ -4789,7 +4789,7 @@
 		"attribute" : 55,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.landing.exit_landing_ground_not_smooth_enable"
 	},
 	{
@@ -4829,7 +4829,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.landing.smart_landing_by_1860_enable"
 	},
 	{
@@ -4839,7 +4839,7 @@
 		"attribute" : 47,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.landing.multi_low_limit_height_enable",
 		"modify" : true
 	},
@@ -4850,7 +4850,7 @@
 		"attribute" : 51,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.landing.ctrl_gimbal_pitch_to_horiz_enable"
 	},
 	{
@@ -4920,7 +4920,7 @@
 		"attribute" : 16,
 		"minValue" : 20,
 		"maxValue" : 500,
-		"defaultValue" : 65,
+		"defaultValue" : 70,
 		"name" : "basic_gain_roll"
 	},
 	{
@@ -4930,7 +4930,7 @@
 		"attribute" : 17,
 		"minValue" : 20,
 		"maxValue" : 500,
-		"defaultValue" : 80,
+		"defaultValue" : 90,
 		"name" : "basic_gain_pitch"
 	},
 	{
@@ -4940,7 +4940,7 @@
 		"attribute" : 15,
 		"minValue" : 20,
 		"maxValue" : 500,
-		"defaultValue" : 35,
+		"defaultValue" : 50,
 		"name" : "basic_gain_yaw",
 		"modify" : true
 	},
@@ -4951,7 +4951,7 @@
 		"attribute" : 20,
 		"minValue" : 20,
 		"maxValue" : 500,
-		"defaultValue" : 60,
+		"defaultValue" : 70,
 		"name" : "basic_gain_vertical"
 	},
 	{
@@ -4960,7 +4960,7 @@
 		"size" : 2,
 		"attribute" : 20,
 		"minValue" : 20,
-		"maxValue" : 500,
+		"maxValue" : 150,
 		"defaultValue" : 100,
 		"name" : "basic_gain_roll_usr"
 	},
@@ -4970,7 +4970,7 @@
 		"size" : 2,
 		"attribute" : 21,
 		"minValue" : 20,
-		"maxValue" : 500,
+		"maxValue" : 150,
 		"defaultValue" : 100,
 		"name" : "basic_gain_pitch_usr"
 	},
@@ -4980,7 +4980,7 @@
 		"size" : 2,
 		"attribute" : 19,
 		"minValue" : 20,
-		"maxValue" : 500,
+		"maxValue" : 150,
 		"defaultValue" : 100,
 		"name" : "basic_gain_yaw_usr"
 	},
@@ -4990,7 +4990,7 @@
 		"size" : 2,
 		"attribute" : 24,
 		"minValue" : 20,
-		"maxValue" : 500,
+		"maxValue" : 150,
 		"defaultValue" : 100,
 		"name" : "basic_gain_vertical_usr"
 	},
@@ -4999,9 +4999,9 @@
 		"typeID" : 5,
 		"size" : 2,
 		"attribute" : 10,
-		"minValue" : 50,
+		"minValue" : 80,
 		"maxValue" : 200,
-		"defaultValue" : 120,
+		"defaultValue" : 140,
 		"name" : "atti_gain"
 	},
 	{
@@ -5021,7 +5021,7 @@
 		"attribute" : 35,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 3.000000,
+		"defaultValue" : 5.000000,
 		"name" : "g_config.mr_ctrl.atti_tilt_lead_fc"
 	},
 	{
@@ -5031,7 +5031,7 @@
 		"attribute" : 37,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 1.500000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.mr_ctrl.atti_tilt_lead_gain"
 	},
 	{
@@ -5101,7 +5101,7 @@
 		"attribute" : 38,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 0.600000,
+		"defaultValue" : 0.800000,
 		"name" : "g_config.mr_ctrl.ang_vel_tilt_pi_freq"
 	},
 	{
@@ -5111,7 +5111,7 @@
 		"attribute" : 38,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 2.500000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.mr_ctrl.ang_vel_tilt_lead_fc"
 	},
 	{
@@ -5131,7 +5131,7 @@
 		"attribute" : 42,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.mr_ctrl.plant_gain_adjust_enable"
 	},
 	{
@@ -5151,7 +5151,7 @@
 		"attribute" : 40,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 15.000000,
+		"defaultValue" : 30.000000,
 		"name" : "g_config.mr_ctrl.ang_vel_tilt_lead_gain"
 	},
 	{
@@ -5191,7 +5191,7 @@
 		"attribute" : 37,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 1.300000,
+		"defaultValue" : 1.200000,
 		"name" : "g_config.mr_ctrl.ang_vel_tors_lag_fc"
 	},
 	{
@@ -5201,7 +5201,7 @@
 		"attribute" : 39,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 1.600000,
+		"defaultValue" : 1.400000,
 		"name" : "g_config.mr_ctrl.ang_vel_tors_lag_gain"
 	},
 	{
@@ -5211,7 +5211,7 @@
 		"attribute" : 33,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 40.000000,
+		"defaultValue" : 60.000000,
 		"name" : "g_config.mr_ctrl.ctrl_lowpass_fp"
 	},
 	{
@@ -5221,7 +5221,7 @@
 		"attribute" : 33,
 		"minValue" : 0.010000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 75.000000,
+		"defaultValue" : 100.000000,
 		"name" : "g_config.mr_ctrl.ctrl_lowpass_fz"
 	},
 	{
@@ -5241,7 +5241,7 @@
 		"attribute" : 15,
 		"minValue" : 20,
 		"maxValue" : 150,
-		"defaultValue" : 100,
+		"defaultValue" : 130,
 		"name" : "horiz_pos_gain",
 		"modify" : true
 	},
@@ -5282,7 +5282,7 @@
 		"attribute" : 15,
 		"minValue" : 20,
 		"maxValue" : 150,
-		"defaultValue" : 110,
+		"defaultValue" : 100,
 		"name" : "horiz_vel_gain",
 		"modify" : true
 	},
@@ -5313,7 +5313,7 @@
 		"attribute" : 35,
 		"minValue" : 0.100000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 1.500000,
+		"defaultValue" : 1.000000,
 		"name" : "g_config.mr_ctrl.horiz_vel_lead_fc"
 	},
 	{
@@ -5333,7 +5333,7 @@
 		"attribute" : 35,
 		"minValue" : 0,
 		"maxValue" : 500,
-		"defaultValue" : 120,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.vert_pos_gain_adj"
 	},
 	{
@@ -5353,7 +5353,7 @@
 		"attribute" : 14,
 		"minValue" : 0,
 		"maxValue" : 500,
-		"defaultValue" : 120,
+		"defaultValue" : 100,
 		"name" : "vert_vel_gain"
 	},
 	{
@@ -5363,7 +5363,7 @@
 		"attribute" : 28,
 		"minValue" : 0.000000,
 		"maxValue" : 500.000000,
-		"defaultValue" : 5.000000,
+		"defaultValue" : 4.000000,
 		"name" : "g_config.mr_ctrl.vert_vel_k"
 	},
 	{
@@ -5373,7 +5373,7 @@
 		"attribute" : 34,
 		"minValue" : 0.000000,
 		"maxValue" : 500.000000,
-		"defaultValue" : 1.500000,
+		"defaultValue" : 1.000000,
 		"name" : "g_config.mr_ctrl.vert_vel_lead_fc"
 	},
 	{
@@ -5423,7 +5423,7 @@
 		"attribute" : 35,
 		"minValue" : 0.100000,
 		"maxValue" : 150.000000,
-		"defaultValue" : 3.000000,
+		"defaultValue" : 4.000000,
 		"name" : "g_config.mr_ctrl.vert_acc_lag_gain"
 	},
 	{
@@ -5523,7 +5523,7 @@
 		"attribute" : 46,
 		"minValue" : 10,
 		"maxValue" : 60000,
-		"defaultValue" : 30000,
+		"defaultValue" : 50000,
 		"name" : "g_config.mr_ctrl.horiz_tilt_rate_output_limit"
 	},
 	{
@@ -5667,7 +5667,7 @@
 		"attribute" : 36,
 		"minValue" : -40,
 		"maxValue" : -5,
-		"defaultValue" : -15,
+		"defaultValue" : -30,
 		"name" : "g_config.mr_ctrl.ccpm_lower_sat_min"
 	},
 	{
@@ -5688,7 +5688,7 @@
 		"attribute" : 39,
 		"minValue" : -1.000000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.040000,
+		"defaultValue" : 0.001000,
 		"name" : "g_config.mr_ctrl.ccpm_yaw_to_roll_gain"
 	},
 	{
@@ -5698,7 +5698,7 @@
 		"attribute" : 40,
 		"minValue" : -1.000000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.010000,
+		"defaultValue" : 0.001000,
 		"name" : "g_config.mr_ctrl.ccpm_yaw_to_pitch_gain"
 	},
 	{
@@ -5708,7 +5708,7 @@
 		"attribute" : 38,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.mr_ctrl.ccpm_couping_comp_en"
 	},
 	{
@@ -5739,7 +5739,7 @@
 		"attribute" : 33,
 		"minValue" : 100,
 		"maxValue" : 250,
-		"defaultValue" : 210,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.prop_cover_gain"
 	},
 	{
@@ -5749,7 +5749,7 @@
 		"attribute" : 37,
 		"minValue" : 100,
 		"maxValue" : 300,
-		"defaultValue" : 210,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.prop_cover_gain_yaw"
 	},
 	{
@@ -5759,7 +5759,7 @@
 		"attribute" : 42,
 		"minValue" : 100,
 		"maxValue" : 300,
-		"defaultValue" : 165,
+		"defaultValue" : 100,
 		"name" : "g_config.mr_ctrl.prop_cover_gain_vertical"
 	},
 	{
@@ -5769,7 +5769,7 @@
 		"attribute" : 45,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.mr_ctrl.prop_cover_detection_enable"
 	},
 	{
@@ -5779,7 +5779,7 @@
 		"attribute" : 35,
 		"minValue" : 0.000000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.205000,
+		"defaultValue" : 0.080000,
 		"name" : "g_config.mr_ctrl.mass_offset_scale"
 	},
 	{
@@ -5789,7 +5789,7 @@
 		"attribute" : 26,
 		"minValue" : 1,
 		"maxValue" : 7,
-		"defaultValue" : 5,
+		"defaultValue" : 4,
 		"name" : "g_config.mr_ctrl.lp_order"
 	},
 	{
@@ -5799,7 +5799,7 @@
 		"attribute" : 34,
 		"minValue" : 0,
 		"maxValue" : 4,
-		"defaultValue" : 3,
+		"defaultValue" : 4,
 		"name" : "g_config.mr_craft.mass_offset_dir"
 	},
 	{
@@ -5809,7 +5809,7 @@
 		"attribute" : 40,
 		"minValue" : 0.050000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 0.300000,
+		"defaultValue" : 1.500000,
 		"name" : "g_config.control.horiz_vel_comp_fltr_fc"
 	},
 	{
@@ -5819,7 +5819,7 @@
 		"attribute" : 39,
 		"minValue" : 0.050000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 0.300000,
+		"defaultValue" : 1.500000,
 		"name" : "g_config.control.vert_vel_comp_fltr_fc"
 	},
 	{
@@ -5929,7 +5929,7 @@
 		"attribute" : 50,
 		"minValue" : 10,
 		"maxValue" : 60,
-		"defaultValue" : 55,
+		"defaultValue" : 50,
 		"name" : "g_config.control.horiz_tilt_emergency_brake_limit"
 	},
 	{
@@ -5980,7 +5980,7 @@
 		"attribute" : 34,
 		"minValue" : 10,
 		"maxValue" : 60,
-		"defaultValue" : 16,
+		"defaultValue" : 15,
 		"name" : "g_config.control.avoid_atti_range"
 	},
 	{
@@ -6010,7 +6010,7 @@
 		"attribute" : 19,
 		"minValue" : 20,
 		"maxValue" : 100,
-		"defaultValue" : 80,
+		"defaultValue" : 100,
 		"name" : "yaw_sensitive_gain"
 	},
 	{
@@ -6038,9 +6038,9 @@
 		"typeID" : 1,
 		"size" : 2,
 		"attribute" : 21,
-		"minValue" : 10,
-		"maxValue" : 200,
-		"defaultValue" : 130,
+		"minValue" : 80,
+		"maxValue" : 150,
+		"defaultValue" : 150,
 		"name" : "brake_sensitive_gain"
 	},
 	{
@@ -6050,7 +6050,7 @@
 		"attribute" : 26,
 		"minValue" : 0.000000,
 		"maxValue" : 2.000000,
-		"defaultValue" : 0.800000,
+		"defaultValue" : 1.500000,
 		"name" : "emergency_brake_sensitive"
 	},
 	{
@@ -6060,7 +6060,7 @@
 		"attribute" : 41,
 		"minValue" : 0.010000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 0.100000,
+		"defaultValue" : 0.300000,
 		"name" : "g_config.control.horiz_stb_cmd_fltr_freq"
 	},
 	{
@@ -6068,8 +6068,8 @@
 		"typeID" : 1,
 		"size" : 2,
 		"attribute" : 46,
-		"minValue" : 10,
-		"maxValue" : 200,
+		"minValue" : 80,
+		"maxValue" : 150,
 		"defaultValue" : 80,
 		"name" : "g_config.control.prop_cover_brake_sensitivity"
 	},
@@ -6101,7 +6101,7 @@
 		"attribute" : 33,
 		"minValue" : 0.100000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 0.400000,
+		"defaultValue" : 0.300000,
 		"name" : "g_config.control.vel_smooth_time"
 	},
 	{
@@ -6111,7 +6111,7 @@
 		"attribute" : 39,
 		"minValue" : 0.050000,
 		"maxValue" : 0.500000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.300000,
 		"name" : "g_config.control.vel_braking_threshold"
 	},
 	{
@@ -6131,7 +6131,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.control.low_vel_enhance_brake_enable"
 	},
 	{
@@ -6382,7 +6382,7 @@
 		"attribute" : 35,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.go_home.adv_gohome_enable"
 	},
 	{
@@ -6402,7 +6402,7 @@
 		"attribute" : 38,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.go_home.close_go_home_enable"
 	},
 	{
@@ -6412,7 +6412,7 @@
 		"attribute" : 44,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.go_home.wm100_close_go_home_enable"
 	},
 	{
@@ -6462,7 +6462,7 @@
 		"attribute" : 54,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.flying_limit.without_avoid_ground_by_app_req"
 	},
 	{
@@ -7210,7 +7210,7 @@
 		"attribute" : 35,
 		"minValue" : 0.010000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.520000,
+		"defaultValue" : 0.550000,
 		"name" : "g_config.mode_wifi_rc_cfg.rc_scale"
 	},
 	{
@@ -7250,7 +7250,7 @@
 		"attribute" : 34,
 		"minValue" : 0.100000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.700000,
+		"defaultValue" : 0.250000,
 		"name" : "g_config.mode_gentle_cfg.rc_scale"
 	},
 	{
@@ -7270,7 +7270,7 @@
 		"attribute" : 41,
 		"minValue" : 100.000000,
 		"maxValue" : 500.000000,
-		"defaultValue" : 150.000000,
+		"defaultValue" : 200.000000,
 		"name" : "g_config.mode_gentle_cfg.tilt_gyro_range"
 	},
 	{
@@ -7278,9 +7278,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 41,
-		"minValue" : 50.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
-		"defaultValue" : 90.000000,
+		"defaultValue" : 70.000000,
 		"name" : "g_config.mode_gentle_cfg.tors_gyro_range"
 	},
 	{
@@ -7290,7 +7290,7 @@
 		"attribute" : 37,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 3.000000,
+		"defaultValue" : 1.500000,
 		"name" : "g_config.mode_gentle_cfg.vert_vel_up"
 	},
 	{
@@ -7300,7 +7300,7 @@
 		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -2.000000,
+		"defaultValue" : -1.000000,
 		"name" : "g_config.mode_gentle_cfg.vert_vel_down"
 	},
 	{
@@ -7310,7 +7310,7 @@
 		"attribute" : 37,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 4.000000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.mode_gentle_cfg.vert_acc_up"
 	},
 	{
@@ -7320,7 +7320,7 @@
 		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -4.000000,
+		"defaultValue" : -3.000000,
 		"name" : "g_config.mode_gentle_cfg.vert_acc_down"
 	},
 	{
@@ -7330,7 +7330,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_gentle_cfg.tilt_exp_mid_point"
 	},
 	{
@@ -7340,7 +7340,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_gentle_cfg.tors_exp_mid_point"
 	},
 	{
@@ -7350,7 +7350,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.200000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_gentle_cfg.lift_exp_mid_point"
 	},
 	{
@@ -7360,7 +7360,7 @@
 		"attribute" : 34,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.900000,
+		"defaultValue" : 0.800000,
 		"name" : "g_config.mode_normal_cfg.rc_scale"
 	},
 	{
@@ -7370,7 +7370,7 @@
 		"attribute" : 41,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 25.000000,
+		"defaultValue" : 35.000000,
 		"name" : "g_config.mode_normal_cfg.tilt_atti_range"
 	},
 	{
@@ -7388,9 +7388,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 41,
-		"minValue" : 50.000000,
-		"maxValue" : 250.000000,
-		"defaultValue" : 100.000000,
+		"minValue" : 1.000000,
+		"maxValue" : 300.000000,
+		"defaultValue" : 90.000000,
 		"name" : "g_config.mode_normal_cfg.tors_gyro_range"
 	},
 	{
@@ -7400,7 +7400,7 @@
 		"attribute" : 37,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 4.000000,
+		"defaultValue" : 2.000000,
 		"name" : "g_config.mode_normal_cfg.vert_vel_up"
 	},
 	{
@@ -7410,7 +7410,7 @@
 		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -3.000000,
+		"defaultValue" : -1.500000,
 		"name" : "g_config.mode_normal_cfg.vert_vel_down"
 	},
 	{
@@ -7430,7 +7430,7 @@
 		"attribute" : 39,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -5.000000,
+		"defaultValue" : -6.000000,
 		"name" : "g_config.mode_normal_cfg.vert_acc_down"
 	},
 	{
@@ -7440,7 +7440,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_normal_cfg.tilt_exp_mid_point"
 	},
 	{
@@ -7450,7 +7450,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_normal_cfg.tors_exp_mid_point"
 	},
 	{
@@ -7460,7 +7460,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_normal_cfg.lift_exp_mid_point"
 	},
 	{
@@ -7470,7 +7470,7 @@
 		"attribute" : 33,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.900000,
+		"defaultValue" : 0.850000,
 		"name" : "g_config.mode_sport_cfg.rc_scale"
 	},
 	{
@@ -7490,7 +7490,7 @@
 		"attribute" : 40,
 		"minValue" : 100.000000,
 		"maxValue" : 800.000000,
-		"defaultValue" : 200.000000,
+		"defaultValue" : 300.000000,
 		"name" : "g_config.mode_sport_cfg.tilt_gyro_range"
 	},
 	{
@@ -7498,9 +7498,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 40,
-		"minValue" : 30.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
-		"defaultValue" : 200.000000,
+		"defaultValue" : 150.000000,
 		"name" : "g_config.mode_sport_cfg.tors_gyro_range"
 	},
 	{
@@ -7510,7 +7510,7 @@
 		"attribute" : 36,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 5.000000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.mode_sport_cfg.vert_vel_up"
 	},
 	{
@@ -7520,7 +7520,7 @@
 		"attribute" : 38,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -3.000000,
+		"defaultValue" : -2.000000,
 		"name" : "g_config.mode_sport_cfg.vert_vel_down"
 	},
 	{
@@ -7561,7 +7561,7 @@
 		"attribute" : 43,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.350000,
+		"defaultValue" : 0.500000,
 		"name" : "g_config.mode_sport_cfg.tors_exp_mid_point",
 		"modify" : true
 	},
@@ -7572,7 +7572,7 @@
 		"attribute" : 43,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.500000,
 		"name" : "g_config.mode_sport_cfg.lift_exp_mid_point",
 		"modify" : true
 	},
@@ -7611,7 +7611,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 40,
-		"minValue" : 50.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
 		"defaultValue" : 90.000000,
 		"name" : "g_config.prop_cover_cfg.tors_gyro_range"
@@ -7643,7 +7643,7 @@
 		"attribute" : 36,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 6.000000,
+		"defaultValue" : 3.000000,
 		"name" : "g_config.prop_cover_cfg.vert_acc_up"
 	},
 	{
@@ -7653,7 +7653,7 @@
 		"attribute" : 38,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -5.000000,
+		"defaultValue" : -3.000000,
 		"name" : "g_config.prop_cover_cfg.vert_acc_down"
 	},
 	{
@@ -7694,7 +7694,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 14,
-		"minValue" : 50.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
 		"defaultValue" : 50.000000,
 		"name" : "CM_tors_range"
@@ -7706,7 +7706,7 @@
 		"attribute" : 37,
 		"minValue" : 0.200000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.900000,
+		"defaultValue" : 0.800000,
 		"name" : "g_config.mode_cinematic_cfg.rc_scale"
 	},
 	{
@@ -7716,7 +7716,7 @@
 		"attribute" : 44,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 25.000000,
+		"defaultValue" : 35.000000,
 		"name" : "g_config.mode_cinematic_cfg.tilt_atti_range"
 	},
 	{
@@ -7736,7 +7736,7 @@
 		"attribute" : 40,
 		"minValue" : 1.000000,
 		"maxValue" : 10.000000,
-		"defaultValue" : 4.000000,
+		"defaultValue" : 2.000000,
 		"name" : "g_config.mode_cinematic_cfg.vert_vel_up"
 	},
 	{
@@ -7746,7 +7746,7 @@
 		"attribute" : 42,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -3.000000,
+		"defaultValue" : -1.500000,
 		"name" : "g_config.mode_cinematic_cfg.vert_vel_down"
 	},
 	{
@@ -7766,7 +7766,7 @@
 		"attribute" : 42,
 		"minValue" : -10.000000,
 		"maxValue" : -1.000000,
-		"defaultValue" : -5.000000,
+		"defaultValue" : -6.000000,
 		"name" : "g_config.mode_cinematic_cfg.vert_acc_down"
 	},
 	{
@@ -7776,7 +7776,7 @@
 		"attribute" : 47,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_cinematic_cfg.tilt_exp_mid_point",
 		"modify" : true
 	},
@@ -7787,7 +7787,7 @@
 		"attribute" : 47,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_cinematic_cfg.tors_exp_mid_point",
 		"modify" : true
 	},
@@ -7798,7 +7798,7 @@
 		"attribute" : 47,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_cinematic_cfg.lift_exp_mid_point",
 		"modify" : true
 	},
@@ -7809,7 +7809,7 @@
 		"attribute" : 34,
 		"minValue" : 0.050000,
 		"maxValue" : 1.000000,
-		"defaultValue" : 0.280000,
+		"defaultValue" : 0.170000,
 		"name" : "g_config.mode_tripod_cfg.rc_scale"
 	},
 	{
@@ -7819,7 +7819,7 @@
 		"attribute" : 41,
 		"minValue" : 10.000000,
 		"maxValue" : 60.000000,
-		"defaultValue" : 25.000000,
+		"defaultValue" : 35.000000,
 		"name" : "g_config.mode_tripod_cfg.tilt_atti_range"
 	},
 	{
@@ -7837,9 +7837,9 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 41,
-		"minValue" : 10.000000,
-		"maxValue" : 90.000000,
-		"defaultValue" : 30.000000,
+		"minValue" : 1.000000,
+		"maxValue" : 300.000000,
+		"defaultValue" : 15.000000,
 		"name" : "g_config.mode_tripod_cfg.tors_gyro_range"
 	},
 	{
@@ -7848,7 +7848,7 @@
 		"size" : 4,
 		"attribute" : 37,
 		"minValue" : 0.500000,
-		"maxValue" : 3.000000,
+		"maxValue" : 10.000000,
 		"defaultValue" : 1.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_up"
 	},
@@ -7857,7 +7857,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 39,
-		"minValue" : -3.000000,
+		"minValue" : -10.000000,
 		"maxValue" : -0.500000,
 		"defaultValue" : -1.000000,
 		"name" : "g_config.mode_tripod_cfg.vert_vel_down"
@@ -7889,7 +7889,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_tripod_cfg.tilt_exp_mid_point"
 	},
 	{
@@ -7899,7 +7899,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_tripod_cfg.tors_exp_mid_point"
 	},
 	{
@@ -7909,7 +7909,7 @@
 		"attribute" : 44,
 		"minValue" : 0.100000,
 		"maxValue" : 0.900000,
-		"defaultValue" : 0.250000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.mode_tripod_cfg.lift_exp_mid_point"
 	},
 	{
@@ -7927,7 +7927,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 41,
-		"minValue" : 10.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 500.000000,
 		"defaultValue" : 150.000000,
 		"name" : "g_config.mode_manual_cfg.tors_gyro_range"
@@ -8101,7 +8101,7 @@
 		"attribute" : 54,
 		"minValue" : 0.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 3.000000,
+		"defaultValue" : 2.000000,
 		"name" : "g_config.avoid_obstacle_limit_cfg.low_speed_cmpen_vel"
 	},
 	{
@@ -8111,7 +8111,7 @@
 		"attribute" : 58,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.avoid_obstacle_limit_cfg.large_wind_cmpen_enable"
 	},
 	{
@@ -8170,7 +8170,7 @@
 		"typeID" : 8,
 		"size" : 4,
 		"attribute" : 40,
-		"minValue" : 30.000000,
+		"minValue" : 1.000000,
 		"maxValue" : 300.000000,
 		"defaultValue" : 90.000000,
 		"name" : "g_config.waypoint_cfg.max_auto_yaw_rate"
@@ -8540,7 +8540,7 @@
 		"attribute" : 40,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.mag_cfg.mag_filter_type.enable"
 	},
 	{
@@ -8550,7 +8550,7 @@
 		"attribute" : 38,
 		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
-		"defaultValue" : 50.000000,
+		"defaultValue" : 150.000000,
 		"name" : "g_config.mag_cfg.mag_filter_type.w_fs"
 	},
 	{
@@ -8560,7 +8560,7 @@
 		"attribute" : 41,
 		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
-		"defaultValue" : 20.000000,
+		"defaultValue" : 9.500000,
 		"name" : "g_config.mag_cfg.mag_filter_type.w_fstop"
 	},
 	{
@@ -8580,7 +8580,7 @@
 		"attribute" : 44,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.mag_cfg.mag_cali_switch.adv_enable"
 	},
 	{
@@ -8640,7 +8640,7 @@
 		"attribute" : 46,
 		"minValue" : 1.000000,
 		"maxValue" : 250.000000,
-		"defaultValue" : 200.000000,
+		"defaultValue" : 170.000000,
 		"name" : "g_config.imu_para_cfg.imu_para_filter.w_fstop"
 	},
 	{
@@ -8968,7 +8968,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 55,
+		"defaultValue" : 45,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_gnss_hv"
 	},
 	{
@@ -8988,7 +8988,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 55,
+		"defaultValue" : 45,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_gnss_vv"
 	},
 	{
@@ -8998,7 +8998,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 0,
+		"defaultValue" : 3,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_vodm_hp"
 	},
 	{
@@ -9008,7 +9008,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 0,
+		"defaultValue" : 3,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_vodm_hv"
 	},
 	{
@@ -9018,7 +9018,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 0,
+		"defaultValue" : 3,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_vodm_vp"
 	},
 	{
@@ -9028,7 +9028,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 0,
+		"defaultValue" : 3,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_vodm_vv"
 	},
 	{
@@ -9038,7 +9038,7 @@
 		"attribute" : 54,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 0,
+		"defaultValue" : 3,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_vodm_vh"
 	},
 	{
@@ -9138,7 +9138,7 @@
 		"attribute" : 55,
 		"minValue" : -128,
 		"maxValue" : 128,
-		"defaultValue" : 5,
+		"defaultValue" : 20,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.delay_tick_magn_yaw"
 	},
 	{
@@ -9158,7 +9158,7 @@
 		"attribute" : 56,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 50,
+		"defaultValue" : 25,
 		"name" : "g_config.imu_para_cfg.imu_adv_func.ground_effect_height"
 	},
 	{
@@ -9168,7 +9168,7 @@
 		"attribute" : 38,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 62,
+		"defaultValue" : 63,
 		"name" : "g_config.gyr_acc_cfg.msc_require_side"
 	},
 	{
@@ -9310,7 +9310,7 @@
 		"attribute" : 41,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.fdi_open.esc_unbalance_fdi_open"
 	},
 	{
@@ -9330,7 +9330,7 @@
 		"attribute" : 41,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.fdi_open.esc_recv_test_fdi_open"
 	},
 	{
@@ -9360,7 +9360,7 @@
 		"attribute" : 17,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "geo_mag_fdi_open"
 	},
 	{
@@ -9430,7 +9430,7 @@
 		"attribute" : 41,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.fdi_open.compass_multi_fdi_open"
 	},
 	{
@@ -9925,7 +9925,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.fdi_open.close_auto_stop_motor_check"
 	},
 	{
@@ -10049,7 +10049,7 @@
 		"attribute" : 42,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.cali_switch.imu_propeller_circle"
 	},
 	{
@@ -10239,7 +10239,7 @@
 		"attribute" : 32,
 		"minValue" : -5.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.030000,
+		"defaultValue" : 0.035000,
 		"name" : "g_config.air_est.orth_gain_left"
 	},
 	{
@@ -10259,7 +10259,7 @@
 		"attribute" : 33,
 		"minValue" : -5.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.010000,
+		"defaultValue" : -0.035000,
 		"name" : "g_config.air_est.tang_gain_front"
 	},
 	{
@@ -10269,7 +10269,7 @@
 		"attribute" : 32,
 		"minValue" : -5.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.010000,
+		"defaultValue" : -0.035000,
 		"name" : "g_config.air_est.tang_gain_back"
 	},
 	{
@@ -10279,7 +10279,7 @@
 		"attribute" : 24,
 		"minValue" : 0.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.400000,
+		"defaultValue" : 2.000000,
 		"name" : "g_config.air_est.gain_0"
 	},
 	{
@@ -10289,7 +10289,7 @@
 		"attribute" : 24,
 		"minValue" : 0.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 1.000000,
+		"defaultValue" : 1.200000,
 		"name" : "g_config.air_est.gain_1"
 	},
 	{
@@ -10299,7 +10299,7 @@
 		"attribute" : 24,
 		"minValue" : 0.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.600000,
+		"defaultValue" : 0.300000,
 		"name" : "g_config.air_est.gain_2"
 	},
 	{
@@ -10309,7 +10309,7 @@
 		"attribute" : 24,
 		"minValue" : 0.000000,
 		"maxValue" : 5.000000,
-		"defaultValue" : 0.800000,
+		"defaultValue" : 0.300000,
 		"name" : "g_config.air_est.gain_3"
 	},
 	{
@@ -10339,7 +10339,7 @@
 		"attribute" : 33,
 		"minValue" : 0.000000,
 		"maxValue" : 50.000000,
-		"defaultValue" : 9.000000,
+		"defaultValue" : 9.600000,
 		"name" : "g_config.air_est.big_wind_level2"
 	},
 	{
@@ -10349,7 +10349,7 @@
 		"attribute" : 34,
 		"minValue" : -10000.000000,
 		"maxValue" : 100.000000,
-		"defaultValue" : -865.799988,
+		"defaultValue" : -922.200012,
 		"name" : "g_config.air_est.acc2speed_gain_x"
 	},
 	{
@@ -10359,7 +10359,7 @@
 		"attribute" : 34,
 		"minValue" : -10000.000000,
 		"maxValue" : 100.000000,
-		"defaultValue" : -1031.500000,
+		"defaultValue" : -679.400024,
 		"name" : "g_config.air_est.acc2speed_gain_y"
 	},
 	{
@@ -10369,7 +10369,7 @@
 		"attribute" : 34,
 		"minValue" : -2.000000,
 		"maxValue" : 2.000000,
-		"defaultValue" : 0.600000,
+		"defaultValue" : 0.400000,
 		"name" : "g_config.air_est.motor_start_comp"
 	},
 	{
@@ -10399,7 +10399,7 @@
 		"attribute" : 40,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 0,
+		"defaultValue" : 1,
 		"name" : "g_config.air_est.air_comp_gps_height_en"
 	},
 	{
@@ -10450,7 +10450,7 @@
 		"attribute" : 47,
 		"minValue" : 0,
 		"maxValue" : 15000,
-		"defaultValue" : 5000,
+		"defaultValue" : 10000,
 		"name" : "g_config.factory_test_cfg.gyro_x_vib_threshold",
 		"modify" : true
 	},
@@ -10461,7 +10461,7 @@
 		"attribute" : 47,
 		"minValue" : 0,
 		"maxValue" : 15000,
-		"defaultValue" : 3000,
+		"defaultValue" : 10000,
 		"name" : "g_config.factory_test_cfg.gyro_y_vib_threshold",
 		"modify" : true
 	},
@@ -10472,7 +10472,7 @@
 		"attribute" : 46,
 		"minValue" : 0,
 		"maxValue" : 10000,
-		"defaultValue" : 130,
+		"defaultValue" : 10000,
 		"name" : "g_config.factory_test_cfg.acc_z_vib_threshold"
 	},
 	{
@@ -10482,7 +10482,7 @@
 		"attribute" : 49,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 10,
+		"defaultValue" : 100,
 		"name" : "g_config.factory_test_cfg.roll_install_threshold"
 	},
 	{
@@ -10492,7 +10492,7 @@
 		"attribute" : 50,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 15,
+		"defaultValue" : 100,
 		"name" : "g_config.factory_test_cfg.pitch_install_threshold"
 	},
 	{
@@ -10502,7 +10502,7 @@
 		"attribute" : 48,
 		"minValue" : 0,
 		"maxValue" : 100,
-		"defaultValue" : 10,
+		"defaultValue" : 100,
 		"name" : "g_config.factory_test_cfg.yaw_install_threshold"
 	},
 	{
@@ -10522,7 +10522,7 @@
 		"attribute" : 33,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.factory_test_cfg.enable"
 	},
 	{
@@ -10766,7 +10766,7 @@
 		"attribute" : 31,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 2,
+		"defaultValue" : 0,
 		"name" : "g_config.mag_cfg.need_cur_cali",
 		"modify" : true
 	},
@@ -10808,7 +10808,7 @@
 		"attribute" : 28,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 21,
+		"defaultValue" : 25,
 		"name" : "g_config.mag_cfg.check_type"
 	},
 	{
@@ -10818,7 +10818,7 @@
 		"attribute" : 32,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 21,
+		"defaultValue" : 25,
 		"name" : "g_config.gyr_acc_cfg.check_type"
 	},
 	{
@@ -10828,7 +10828,7 @@
 		"attribute" : 29,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 21,
+		"defaultValue" : 25,
 		"name" : "g_config.baro_cfg.check_type"
 	},
 	{
@@ -10838,7 +10838,7 @@
 		"attribute" : 28,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 21,
+		"defaultValue" : 25,
 		"name" : "g_config.gps_cfg.check_type"
 	},
 	{
@@ -10848,7 +10848,7 @@
 		"attribute" : 33,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 21,
+		"defaultValue" : 25,
 		"name" : "g_config.imu_para_cfg.check_type"
 	},
 	{
@@ -11202,7 +11202,7 @@
 		"attribute" : 62,
 		"minValue" : 0,
 		"maxValue" : 1,
-		"defaultValue" : 1,
+		"defaultValue" : 0,
 		"name" : "g_config.airport_limit_cfg.cfg_enable[FLY_LIMIT_TYPE_AIRPORT]"
 	},
 	{
@@ -11312,7 +11312,7 @@
 		"attribute" : 29,
 		"minValue" : 0,
 		"maxValue" : 255,
-		"defaultValue" : 1,
+		"defaultValue" : 3,
 		"name" : "g_config.bat_config.sop_type"
 	},
 	{
@@ -11352,7 +11352,7 @@
 		"attribute" : 38,
 		"minValue" : 0,
 		"maxValue" : 5000,
-		"defaultValue" : 100,
+		"defaultValue" : 45,
 		"name" : "g_config.bat_config.lower_limit_power"
 	},
 	{
@@ -11372,7 +11372,7 @@
 		"attribute" : 36,
 		"minValue" : 0,
 		"maxValue" : 65535,
-		"defaultValue" : 10000,
+		"defaultValue" : 5500,
 		"name" : "g_config.bat_config.go_home_current"
 	},
 	{
@@ -11382,7 +11382,7 @@
 		"attribute" : 34,
 		"minValue" : 0,
 		"maxValue" : 65535,
-		"defaultValue" : 1600,
+		"defaultValue" : 145,
 		"name" : "g_config.bat_config.max_bat_power"
 	},
 	{
