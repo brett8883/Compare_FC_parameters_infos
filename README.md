@@ -95,3 +95,8 @@ COMING SOON!
   Simply type the name of the Aircraft and the default firmware version youd like to compare to the custom FC.
   
   Add the ability to extract flyc_param_infos file from already compiled custom_FC.bin and automatically compare flyc_param_infos file to stock. 
+
+
+
+**Acknowlegment**
+The extractCOMPAREtostock.bat uses tools from https://github.com/o-gs/dji-firmware-tools by mefistotelis
