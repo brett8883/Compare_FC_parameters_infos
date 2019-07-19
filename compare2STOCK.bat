@@ -13,12 +13,12 @@ ECHo [6] Phantom 4 Pro v2
 ECHO [7] Inspire 2
 choice /C 1234567 /D 1 /T 99 /M "Please select factory parameters to compare"
 If Errorlevel 7 goto sorry
-If Errorlevel 6 set facparms=flcy_param_infos_p4pv2
-If Errorlevel 5 set facparms=flcy_param_infos_p4p
-If Errorlevel 4 set facparms=flyc_param_infos_P4A
-If Errorlevel 3 goto sorry
-If Errorlevel 2 set facparms=flcy_param_infos_spark
-If Errorlevel 1 set facparms=flcy_param_infos_mavicPro
+If Errorlevel 6 goto p4pv2
+If Errorlevel 5 set facparms=flyc_param_infos_p4p_V01.05.0600_stock
+If Errorlevel 4 set facparms=flyc_param_infos_P4A_V01.00.0128_stock
+If Errorlevel 3 set facparms=flyc_param_infos_p4STANDARD_V02.00.0700_stock
+If Errorlevel 2 set facparms=flyc_param_infos_spark_V01.00.0900_stock
+If Errorlevel 1 set facparms=flcy_param_infos_mavicPro_v01.04.0300_stock
 
 :main
 @echo off
@@ -35,6 +35,14 @@ fc %facparms% %P%
 pause
 exit
 
+:p4pv2
+@echo off
+ECHO [1] V01.00.1500
+ECHO [2] V01.00.2200
+choice /C 12 /D 1 /T 99 /M "Which stock firmware to compare?"
+If Errorlevel 2 set facparms=flyc_param_infos_p4pv2_V01.00.2200_stock
+If Errorlevel 1 set facparms=flyc_param_infos_factory_P4Pv2_V01.00.1500_stock
+goto main
 
 :sorry
 cls 
